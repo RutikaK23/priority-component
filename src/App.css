@@ -1,0 +1,94 @@
+.priority-container {
+  width: 300px;
+  margin: 0 auto;
+  text-align: left;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  background: #f9f9f9;
+}
+
+.priority-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.priority-title {
+  cursor: grab;
+  margin-right: 10px;
+}
+
+.priority-heading {
+  flex-grow: 1;
+}
+
+.priority-count-options {
+  display: flex;
+  align-items: center;
+}
+
+.priority-count {
+  margin-right: 20px;
+}
+
+.priority-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.priority-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+  position: relative;
+}
+
+.priority-item:hover .priority-dots {
+  display: none;
+}
+
+.priority-item:hover .priority-delete {
+  display: block;
+}
+
+.priority-options {
+  display: flex;
+  align-items: center;
+}
+
+.priority-dots {
+  margin-left: 10px;
+  display: block;
+}
+
+.priority-delete {
+  margin-left: 10px;
+  display: none;
+}
+
+.priority-add-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #f0f0f0;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.priority-add-card:hover {
+  background: #e0e0e0;
+}
